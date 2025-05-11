@@ -1,0 +1,31 @@
+.testimonial-card img{
+    width: 60px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+img, svg {
+    vertical-align: middle;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+mg {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.testimonial-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+.g-4, .gy-4 {
+    --bs-gutter-y: 1.5rem;
+}
+.g-4, .gx-4 {
+    --bs-gutter-x: 1.5rem;
+}
